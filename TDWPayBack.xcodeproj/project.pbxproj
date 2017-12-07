@@ -1,0 +1,1439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90E42D07AF9675A31FB9F83 /* Pods_TDWPayBack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D12C3A10AB099B072E6591C /* Pods_TDWPayBack.framework */; };
+		CE1274951FD6925C00685B93 /* TDWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274761FD6925B00685B93 /* TDWBaseViewController.swift */; };
+		CE1274961FD6925C00685B93 /* TDWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274761FD6925B00685B93 /* TDWBaseViewController.swift */; };
+		CE1274971FD6925C00685B93 /* TDWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274761FD6925B00685B93 /* TDWBaseViewController.swift */; };
+		CE1274981FD6925C00685B93 /* TDWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274771FD6925B00685B93 /* TDWNavigationController.swift */; };
+		CE1274991FD6925C00685B93 /* TDWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274771FD6925B00685B93 /* TDWNavigationController.swift */; };
+		CE12749A1FD6925C00685B93 /* TDWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274771FD6925B00685B93 /* TDWNavigationController.swift */; };
+		CE12749B1FD6925C00685B93 /* TDWConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274791FD6925B00685B93 /* TDWConstant.swift */; };
+		CE12749C1FD6925C00685B93 /* TDWConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274791FD6925B00685B93 /* TDWConstant.swift */; };
+		CE12749D1FD6925C00685B93 /* TDWConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274791FD6925B00685B93 /* TDWConstant.swift */; };
+		CE12749E1FD6925C00685B93 /* TDWNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747A1FD6925B00685B93 /* TDWNotification.swift */; };
+		CE12749F1FD6925C00685B93 /* TDWNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747A1FD6925B00685B93 /* TDWNotification.swift */; };
+		CE1274A01FD6925C00685B93 /* TDWNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747A1FD6925B00685B93 /* TDWNotification.swift */; };
+		CE1274A11FD6925C00685B93 /* TDWEmotionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747D1FD6925B00685B93 /* TDWEmotionMap.swift */; };
+		CE1274A21FD6925C00685B93 /* TDWEmotionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747D1FD6925B00685B93 /* TDWEmotionMap.swift */; };
+		CE1274A31FD6925C00685B93 /* TDWEmotionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747D1FD6925B00685B93 /* TDWEmotionMap.swift */; };
+		CE1274A41FD6925C00685B93 /* TDWEmotionMapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747E1FD6925B00685B93 /* TDWEmotionMapConfig.swift */; };
+		CE1274A51FD6925C00685B93 /* TDWEmotionMapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747E1FD6925B00685B93 /* TDWEmotionMapConfig.swift */; };
+		CE1274A61FD6925C00685B93 /* TDWEmotionMapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12747E1FD6925B00685B93 /* TDWEmotionMapConfig.swift */; };
+		CE1274A71FD6925C00685B93 /* TDWHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274801FD6925B00685B93 /* TDWHud.swift */; };
+		CE1274A81FD6925C00685B93 /* TDWHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274801FD6925B00685B93 /* TDWHud.swift */; };
+		CE1274A91FD6925C00685B93 /* TDWHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274801FD6925B00685B93 /* TDWHud.swift */; };
+		CE1274AA1FD6925C00685B93 /* TDWLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274811FD6925B00685B93 /* TDWLoadingView.swift */; };
+		CE1274AB1FD6925C00685B93 /* TDWLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274811FD6925B00685B93 /* TDWLoadingView.swift */; };
+		CE1274AC1FD6925C00685B93 /* TDWLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274811FD6925B00685B93 /* TDWLoadingView.swift */; };
+		CE1274AD1FD6925C00685B93 /* TDWUserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274871FD6925B00685B93 /* TDWUserDefaultsHelper.swift */; };
+		CE1274AE1FD6925C00685B93 /* TDWUserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274871FD6925B00685B93 /* TDWUserDefaultsHelper.swift */; };
+		CE1274AF1FD6925C00685B93 /* TDWUserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274871FD6925B00685B93 /* TDWUserDefaultsHelper.swift */; };
+		CE1274B01FD6925C00685B93 /* TDWUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274881FD6925B00685B93 /* TDWUserManager.swift */; };
+		CE1274B11FD6925C00685B93 /* TDWUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274881FD6925B00685B93 /* TDWUserManager.swift */; };
+		CE1274B21FD6925C00685B93 /* TDWUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274881FD6925B00685B93 /* TDWUserManager.swift */; };
+		CE1274B31FD6925C00685B93 /* TDWMoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748B1FD6925B00685B93 /* TDWMoyaConfig.swift */; };
+		CE1274B41FD6925C00685B93 /* TDWMoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748B1FD6925B00685B93 /* TDWMoyaConfig.swift */; };
+		CE1274B51FD6925C00685B93 /* TDWMoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748B1FD6925B00685B93 /* TDWMoyaConfig.swift */; };
+		CE1274B61FD6925C00685B93 /* TDWMoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748C1FD6925B00685B93 /* TDWMoyaProvider.swift */; };
+		CE1274B71FD6925C00685B93 /* TDWMoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748C1FD6925B00685B93 /* TDWMoyaProvider.swift */; };
+		CE1274B81FD6925C00685B93 /* TDWMoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748C1FD6925B00685B93 /* TDWMoyaProvider.swift */; };
+		CE1274B91FD6925C00685B93 /* TDWResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748D1FD6925B00685B93 /* TDWResult.swift */; };
+		CE1274BA1FD6925C00685B93 /* TDWResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748D1FD6925B00685B93 /* TDWResult.swift */; };
+		CE1274BB1FD6925C00685B93 /* TDWResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12748D1FD6925B00685B93 /* TDWResult.swift */; };
+		CE1274BC1FD6925C00685B93 /* ParameterPaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274901FD6925B00685B93 /* ParameterPaser.swift */; };
+		CE1274BD1FD6925C00685B93 /* ParameterPaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274901FD6925B00685B93 /* ParameterPaser.swift */; };
+		CE1274BE1FD6925C00685B93 /* ParameterPaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274901FD6925B00685B93 /* ParameterPaser.swift */; };
+		CE1274BF1FD6925C00685B93 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1274921FD6925B00685B93 /* RSA.m */; };
+		CE1274C01FD6925C00685B93 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1274921FD6925B00685B93 /* RSA.m */; };
+		CE1274C11FD6925C00685B93 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1274921FD6925B00685B93 /* RSA.m */; };
+		CE1274C21FD6925C00685B93 /* TripleDES.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1274941FD6925B00685B93 /* TripleDES.m */; };
+		CE1274C31FD6925C00685B93 /* TripleDES.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1274941FD6925B00685B93 /* TripleDES.m */; };
+		CE1274C41FD6925C00685B93 /* TripleDES.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1274941FD6925B00685B93 /* TripleDES.m */; };
+		CE1275021FD6932900685B93 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274F81FD6932800685B93 /* LoginWireFrame.swift */; };
+		CE1275031FD6932900685B93 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274F81FD6932800685B93 /* LoginWireFrame.swift */; };
+		CE1275041FD6932900685B93 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274F81FD6932800685B93 /* LoginWireFrame.swift */; };
+		CE1275051FD6932900685B93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FA1FD6932800685B93 /* LoginViewController.swift */; };
+		CE1275061FD6932900685B93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FA1FD6932800685B93 /* LoginViewController.swift */; };
+		CE1275071FD6932900685B93 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FA1FD6932800685B93 /* LoginViewController.swift */; };
+		CE1275081FD6932900685B93 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FC1FD6932800685B93 /* LoginInteractor.swift */; };
+		CE1275091FD6932900685B93 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FC1FD6932800685B93 /* LoginInteractor.swift */; };
+		CE12750A1FD6932900685B93 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FC1FD6932800685B93 /* LoginInteractor.swift */; };
+		CE12750B1FD6932900685B93 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FF1FD6932800685B93 /* LoginPresenter.swift */; };
+		CE12750C1FD6932900685B93 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FF1FD6932800685B93 /* LoginPresenter.swift */; };
+		CE12750D1FD6932900685B93 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1274FF1FD6932800685B93 /* LoginPresenter.swift */; };
+		CE12750E1FD6932900685B93 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275011FD6932900685B93 /* LoginProtocols.swift */; };
+		CE12750F1FD6932900685B93 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275011FD6932900685B93 /* LoginProtocols.swift */; };
+		CE1275101FD6932900685B93 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275011FD6932900685B93 /* LoginProtocols.swift */; };
+		CE1275131FD693AA00685B93 /* TDWSettingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275121FD693AA00685B93 /* TDWSettingAPI.swift */; };
+		CE1275141FD693AA00685B93 /* TDWSettingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275121FD693AA00685B93 /* TDWSettingAPI.swift */; };
+		CE1275151FD693AA00685B93 /* TDWSettingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275121FD693AA00685B93 /* TDWSettingAPI.swift */; };
+		CE1275391FD6941600685B93 /* RegisterWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12752F1FD6941500685B93 /* RegisterWireFrame.swift */; };
+		CE12753A1FD6941600685B93 /* RegisterWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12752F1FD6941500685B93 /* RegisterWireFrame.swift */; };
+		CE12753B1FD6941600685B93 /* RegisterWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12752F1FD6941500685B93 /* RegisterWireFrame.swift */; };
+		CE12753C1FD6941600685B93 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275311FD6941500685B93 /* RegisterInteractor.swift */; };
+		CE12753D1FD6941600685B93 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275311FD6941500685B93 /* RegisterInteractor.swift */; };
+		CE12753E1FD6941600685B93 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275311FD6941500685B93 /* RegisterInteractor.swift */; };
+		CE12753F1FD6941600685B93 /* RegisterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275331FD6941500685B93 /* RegisterProtocols.swift */; };
+		CE1275401FD6941600685B93 /* RegisterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275331FD6941500685B93 /* RegisterProtocols.swift */; };
+		CE1275411FD6941600685B93 /* RegisterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275331FD6941500685B93 /* RegisterProtocols.swift */; };
+		CE1275421FD6941600685B93 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275361FD6941600685B93 /* RegisterPresenter.swift */; };
+		CE1275431FD6941600685B93 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275361FD6941600685B93 /* RegisterPresenter.swift */; };
+		CE1275441FD6941600685B93 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275361FD6941600685B93 /* RegisterPresenter.swift */; };
+		CE1275451FD6941600685B93 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275381FD6941600685B93 /* RegisterViewController.swift */; };
+		CE1275461FD6941600685B93 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275381FD6941600685B93 /* RegisterViewController.swift */; };
+		CE1275471FD6941600685B93 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275381FD6941600685B93 /* RegisterViewController.swift */; };
+		CE1275511FD696C500685B93 /* TDWAlertChooseTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275491FD696C500685B93 /* TDWAlertChooseTitleView.swift */; };
+		CE1275521FD696C500685B93 /* TDWAlertChooseTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275491FD696C500685B93 /* TDWAlertChooseTitleView.swift */; };
+		CE1275531FD696C500685B93 /* TDWAlertChooseTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275491FD696C500685B93 /* TDWAlertChooseTitleView.swift */; };
+		CE1275541FD696C500685B93 /* TDWAlertChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754A1FD696C500685B93 /* TDWAlertChooseView.swift */; };
+		CE1275551FD696C500685B93 /* TDWAlertChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754A1FD696C500685B93 /* TDWAlertChooseView.swift */; };
+		CE1275561FD696C500685B93 /* TDWAlertChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754A1FD696C500685B93 /* TDWAlertChooseView.swift */; };
+		CE1275571FD696C500685B93 /* TDWAlertCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754B1FD696C500685B93 /* TDWAlertCloseView.swift */; };
+		CE1275581FD696C500685B93 /* TDWAlertCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754B1FD696C500685B93 /* TDWAlertCloseView.swift */; };
+		CE1275591FD696C500685B93 /* TDWAlertCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754B1FD696C500685B93 /* TDWAlertCloseView.swift */; };
+		CE12755A1FD696C500685B93 /* TDWAlertTipTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754C1FD696C500685B93 /* TDWAlertTipTitleView.swift */; };
+		CE12755B1FD696C500685B93 /* TDWAlertTipTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754C1FD696C500685B93 /* TDWAlertTipTitleView.swift */; };
+		CE12755C1FD696C500685B93 /* TDWAlertTipTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754C1FD696C500685B93 /* TDWAlertTipTitleView.swift */; };
+		CE12755D1FD696C500685B93 /* TDWAlertTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754D1FD696C500685B93 /* TDWAlertTipView.swift */; };
+		CE12755E1FD696C500685B93 /* TDWAlertTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754D1FD696C500685B93 /* TDWAlertTipView.swift */; };
+		CE12755F1FD696C500685B93 /* TDWAlertTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754D1FD696C500685B93 /* TDWAlertTipView.swift */; };
+		CE1275601FD696C500685B93 /* TDWAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754E1FD696C500685B93 /* TDWAlertView.swift */; };
+		CE1275611FD696C500685B93 /* TDWAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754E1FD696C500685B93 /* TDWAlertView.swift */; };
+		CE1275621FD696C500685B93 /* TDWAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754E1FD696C500685B93 /* TDWAlertView.swift */; };
+		CE1275631FD696C500685B93 /* TDWAlertViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754F1FD696C500685B93 /* TDWAlertViewBridge.swift */; };
+		CE1275641FD696C500685B93 /* TDWAlertViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754F1FD696C500685B93 /* TDWAlertViewBridge.swift */; };
+		CE1275651FD696C500685B93 /* TDWAlertViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12754F1FD696C500685B93 /* TDWAlertViewBridge.swift */; };
+		CE1275661FD696C500685B93 /* TDWTwoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275501FD696C500685B93 /* TDWTwoButtonView.swift */; };
+		CE1275671FD696C500685B93 /* TDWTwoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275501FD696C500685B93 /* TDWTwoButtonView.swift */; };
+		CE1275681FD696C500685B93 /* TDWTwoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275501FD696C500685B93 /* TDWTwoButtonView.swift */; };
+		CE1275701FD6975100685B93 /* TDWCacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756A1FD6975100685B93 /* TDWCacheHelper.swift */; };
+		CE1275711FD6975100685B93 /* TDWCacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756A1FD6975100685B93 /* TDWCacheHelper.swift */; };
+		CE1275721FD6975100685B93 /* TDWCacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756A1FD6975100685B93 /* TDWCacheHelper.swift */; };
+		CE1275761FD6975100685B93 /* TDWExtensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756C1FD6975100685B93 /* TDWExtensions+String.swift */; };
+		CE1275771FD6975100685B93 /* TDWExtensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756C1FD6975100685B93 /* TDWExtensions+String.swift */; };
+		CE1275781FD6975100685B93 /* TDWExtensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756C1FD6975100685B93 /* TDWExtensions+String.swift */; };
+		CE1275791FD6975100685B93 /* TDWMoneyStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756D1FD6975100685B93 /* TDWMoneyStringExtensions.swift */; };
+		CE12757A1FD6975100685B93 /* TDWMoneyStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756D1FD6975100685B93 /* TDWMoneyStringExtensions.swift */; };
+		CE12757B1FD6975100685B93 /* TDWMoneyStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756D1FD6975100685B93 /* TDWMoneyStringExtensions.swift */; };
+		CE12757F1FD6975100685B93 /* TDWToolMoneyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756F1FD6975100685B93 /* TDWToolMoneyFormat.swift */; };
+		CE1275801FD6975100685B93 /* TDWToolMoneyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756F1FD6975100685B93 /* TDWToolMoneyFormat.swift */; };
+		CE1275811FD6975100685B93 /* TDWToolMoneyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12756F1FD6975100685B93 /* TDWToolMoneyFormat.swift */; };
+		CE1275831FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275821FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift */; };
+		CE1275841FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275821FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift */; };
+		CE1275851FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275821FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift */; };
+		CE12758A1FD69BF900685B93 /* TDWWebActionInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275871FD69BF900685B93 /* TDWWebActionInteraction.swift */; };
+		CE12758B1FD69BF900685B93 /* TDWWebActionInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275871FD69BF900685B93 /* TDWWebActionInteraction.swift */; };
+		CE12758C1FD69BF900685B93 /* TDWWebActionInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275871FD69BF900685B93 /* TDWWebActionInteraction.swift */; };
+		CE12758D1FD69BF900685B93 /* TDWWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275881FD69BF900685B93 /* TDWWebController.swift */; };
+		CE12758E1FD69BF900685B93 /* TDWWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275881FD69BF900685B93 /* TDWWebController.swift */; };
+		CE12758F1FD69BF900685B93 /* TDWWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275881FD69BF900685B93 /* TDWWebController.swift */; };
+		CE1275901FD69BF900685B93 /* TDWWebEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275891FD69BF900685B93 /* TDWWebEventHandler.swift */; };
+		CE1275911FD69BF900685B93 /* TDWWebEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275891FD69BF900685B93 /* TDWWebEventHandler.swift */; };
+		CE1275921FD69BF900685B93 /* TDWWebEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275891FD69BF900685B93 /* TDWWebEventHandler.swift */; };
+		CE1275961FD69C6300685B93 /* TDWImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275941FD69C6300685B93 /* TDWImagePicker.swift */; };
+		CE1275971FD69C6300685B93 /* TDWImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275941FD69C6300685B93 /* TDWImagePicker.swift */; };
+		CE1275981FD69C6300685B93 /* TDWImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275941FD69C6300685B93 /* TDWImagePicker.swift */; };
+		CE1275991FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275951FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift */; };
+		CE12759A1FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275951FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift */; };
+		CE12759B1FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1275951FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift */; };
+		CE1275A71FD6A3A600685B93 /* TDWBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12759E1FD6A3A600685B93 /* TDWBaseTableView.m */; };
+		CE1275A81FD6A3A600685B93 /* TDWBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12759E1FD6A3A600685B93 /* TDWBaseTableView.m */; };
+		CE1275A91FD6A3A600685B93 /* TDWBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE12759E1FD6A3A600685B93 /* TDWBaseTableView.m */; };
+		CE1275AA1FD6A3A600685B93 /* TDWCustomRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A01FD6A3A600685B93 /* TDWCustomRefreshFooter.m */; };
+		CE1275AB1FD6A3A600685B93 /* TDWCustomRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A01FD6A3A600685B93 /* TDWCustomRefreshFooter.m */; };
+		CE1275AC1FD6A3A600685B93 /* TDWCustomRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A01FD6A3A600685B93 /* TDWCustomRefreshFooter.m */; };
+		CE1275AD1FD6A3A600685B93 /* TDWCustomRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A21FD6A3A600685B93 /* TDWCustomRefreshHeader.m */; };
+		CE1275AE1FD6A3A600685B93 /* TDWCustomRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A21FD6A3A600685B93 /* TDWCustomRefreshHeader.m */; };
+		CE1275AF1FD6A3A600685B93 /* TDWCustomRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A21FD6A3A600685B93 /* TDWCustomRefreshHeader.m */; };
+		CE1275B01FD6A3A600685B93 /* TDWPageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A41FD6A3A600685B93 /* TDWPageTableView.m */; };
+		CE1275B11FD6A3A600685B93 /* TDWPageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A41FD6A3A600685B93 /* TDWPageTableView.m */; };
+		CE1275B21FD6A3A600685B93 /* TDWPageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A41FD6A3A600685B93 /* TDWPageTableView.m */; };
+		CE1275B31FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A61FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m */; };
+		CE1275B41FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A61FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m */; };
+		CE1275B51FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1275A61FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m */; };
+		CE3BA35F1FD5221600D24C3B /* TDWPayBack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA35D1FD5221600D24C3B /* TDWPayBack.xcdatamodeld */; };
+		CE3BA3611FD5221600D24C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3BA3601FD5221600D24C3B /* Assets.xcassets */; };
+		CE3BA3641FD5221600D24C3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3BA3621FD5221600D24C3B /* LaunchScreen.storyboard */; };
+		CE3BA36F1FD5221600D24C3B /* TDWPayBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA36E1FD5221600D24C3B /* TDWPayBackTests.swift */; };
+		CE3BA37A1FD5221600D24C3B /* TDWPayBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA3791FD5221600D24C3B /* TDWPayBackUITests.swift */; };
+		CE3BA3A41FD5304B00D24C3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA3A01FD5304B00D24C3B /* AppDelegate.swift */; };
+		CE3BA3A51FD5304B00D24C3B /* AppDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA3A11FD5304B00D24C3B /* AppDelegateExtension.swift */; };
+		CE3BA3A61FD5304B00D24C3B /* TDWTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA3A31FD5304B00D24C3B /* TDWTabbarController.swift */; };
+		CE3BA3AC1FD5313200D24C3B /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA3AB1FD5313200D24C3B /* PersonalViewController.swift */; };
+		CE5425861FD7CA0E008AA3B9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5425851FD7CA0E008AA3B9 /* HomePageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3BA36B1FD5221600D24C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3BA34B1FD5221600D24C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3BA3521FD5221600D24C3B;
+			remoteInfo = TDWPayBack;
+		};
+		CE3BA3761FD5221600D24C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3BA34B1FD5221600D24C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3BA3521FD5221600D24C3B;
+			remoteInfo = TDWPayBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D12C3A10AB099B072E6591C /* Pods_TDWPayBack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDWPayBack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A176B3A865EE04C0AFBB7964 /* Pods-TDWPayBack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDWPayBack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDWPayBack/Pods-TDWPayBack.debug.xcconfig"; sourceTree = "<group>"; };
+		C7F710DB719C199BB98FEAE9 /* Pods-TDWPayBack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDWPayBack.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDWPayBack/Pods-TDWPayBack.release.xcconfig"; sourceTree = "<group>"; };
+		CE1274761FD6925B00685B93 /* TDWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWBaseViewController.swift; sourceTree = "<group>"; };
+		CE1274771FD6925B00685B93 /* TDWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWNavigationController.swift; sourceTree = "<group>"; };
+		CE1274791FD6925B00685B93 /* TDWConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWConstant.swift; sourceTree = "<group>"; };
+		CE12747A1FD6925B00685B93 /* TDWNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWNotification.swift; sourceTree = "<group>"; };
+		CE12747D1FD6925B00685B93 /* TDWEmotionMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWEmotionMap.swift; sourceTree = "<group>"; };
+		CE12747E1FD6925B00685B93 /* TDWEmotionMapConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWEmotionMapConfig.swift; sourceTree = "<group>"; };
+		CE1274801FD6925B00685B93 /* TDWHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWHud.swift; sourceTree = "<group>"; };
+		CE1274811FD6925B00685B93 /* TDWLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWLoadingView.swift; sourceTree = "<group>"; };
+		CE1274831FD6925B00685B93 /* TDWPayBack-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDWPayBack-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE1274841FD6925B00685B93 /* TDWPayBackTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDWPayBackTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE1274851FD6925B00685B93 /* TDWPayBackUITests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDWPayBackUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE1274871FD6925B00685B93 /* TDWUserDefaultsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWUserDefaultsHelper.swift; sourceTree = "<group>"; };
+		CE1274881FD6925B00685B93 /* TDWUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWUserManager.swift; sourceTree = "<group>"; };
+		CE12748B1FD6925B00685B93 /* TDWMoyaConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWMoyaConfig.swift; sourceTree = "<group>"; };
+		CE12748C1FD6925B00685B93 /* TDWMoyaProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWMoyaProvider.swift; sourceTree = "<group>"; };
+		CE12748D1FD6925B00685B93 /* TDWResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWResult.swift; sourceTree = "<group>"; };
+		CE1274901FD6925B00685B93 /* ParameterPaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterPaser.swift; sourceTree = "<group>"; };
+		CE1274911FD6925B00685B93 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		CE1274921FD6925B00685B93 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		CE1274931FD6925B00685B93 /* TripleDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripleDES.h; sourceTree = "<group>"; };
+		CE1274941FD6925B00685B93 /* TripleDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripleDES.m; sourceTree = "<group>"; };
+		CE1274F81FD6932800685B93 /* LoginWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
+		CE1274FA1FD6932800685B93 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE1274FC1FD6932800685B93 /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		CE1274FF1FD6932800685B93 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		CE1275011FD6932900685B93 /* LoginProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		CE1275121FD693AA00685B93 /* TDWSettingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWSettingAPI.swift; sourceTree = "<group>"; };
+		CE12752F1FD6941500685B93 /* RegisterWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterWireFrame.swift; sourceTree = "<group>"; };
+		CE1275311FD6941500685B93 /* RegisterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		CE1275331FD6941500685B93 /* RegisterProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterProtocols.swift; sourceTree = "<group>"; };
+		CE1275361FD6941600685B93 /* RegisterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		CE1275381FD6941600685B93 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE1275491FD696C500685B93 /* TDWAlertChooseTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWAlertChooseTitleView.swift; sourceTree = "<group>"; };
+		CE12754A1FD696C500685B93 /* TDWAlertChooseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWAlertChooseView.swift; sourceTree = "<group>"; };
+		CE12754B1FD696C500685B93 /* TDWAlertCloseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWAlertCloseView.swift; sourceTree = "<group>"; };
+		CE12754C1FD696C500685B93 /* TDWAlertTipTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWAlertTipTitleView.swift; sourceTree = "<group>"; };
+		CE12754D1FD696C500685B93 /* TDWAlertTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWAlertTipView.swift; sourceTree = "<group>"; };
+		CE12754E1FD696C500685B93 /* TDWAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWAlertView.swift; sourceTree = "<group>"; };
+		CE12754F1FD696C500685B93 /* TDWAlertViewBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWAlertViewBridge.swift; sourceTree = "<group>"; };
+		CE1275501FD696C500685B93 /* TDWTwoButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWTwoButtonView.swift; sourceTree = "<group>"; };
+		CE12756A1FD6975100685B93 /* TDWCacheHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWCacheHelper.swift; sourceTree = "<group>"; };
+		CE12756C1FD6975100685B93 /* TDWExtensions+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TDWExtensions+String.swift"; sourceTree = "<group>"; };
+		CE12756D1FD6975100685B93 /* TDWMoneyStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWMoneyStringExtensions.swift; sourceTree = "<group>"; };
+		CE12756F1FD6975100685B93 /* TDWToolMoneyFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWToolMoneyFormat.swift; sourceTree = "<group>"; };
+		CE1275821FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TDWExtensions+NSAttributedString.swift"; sourceTree = "<group>"; };
+		CE1275871FD69BF900685B93 /* TDWWebActionInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWWebActionInteraction.swift; sourceTree = "<group>"; };
+		CE1275881FD69BF900685B93 /* TDWWebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWWebController.swift; sourceTree = "<group>"; };
+		CE1275891FD69BF900685B93 /* TDWWebEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWWebEventHandler.swift; sourceTree = "<group>"; };
+		CE1275941FD69C6300685B93 /* TDWImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWImagePicker.swift; sourceTree = "<group>"; };
+		CE1275951FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWPhotoAlbumGuideViewController.swift; sourceTree = "<group>"; };
+		CE12759D1FD6A3A600685B93 /* TDWBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDWBaseTableView.h; sourceTree = "<group>"; };
+		CE12759E1FD6A3A600685B93 /* TDWBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDWBaseTableView.m; sourceTree = "<group>"; };
+		CE12759F1FD6A3A600685B93 /* TDWCustomRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDWCustomRefreshFooter.h; sourceTree = "<group>"; };
+		CE1275A01FD6A3A600685B93 /* TDWCustomRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDWCustomRefreshFooter.m; sourceTree = "<group>"; };
+		CE1275A11FD6A3A600685B93 /* TDWCustomRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDWCustomRefreshHeader.h; sourceTree = "<group>"; };
+		CE1275A21FD6A3A600685B93 /* TDWCustomRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDWCustomRefreshHeader.m; sourceTree = "<group>"; };
+		CE1275A31FD6A3A600685B93 /* TDWPageTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDWPageTableView.h; sourceTree = "<group>"; };
+		CE1275A41FD6A3A600685B93 /* TDWPageTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDWPageTableView.m; sourceTree = "<group>"; };
+		CE1275A51FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TDWHeaderRefresh.h"; sourceTree = "<group>"; };
+		CE1275A61FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TDWHeaderRefresh.m"; sourceTree = "<group>"; };
+		CE3BA3531FD5221600D24C3B /* TDWPayBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDWPayBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3BA35E1FD5221600D24C3B /* TDWPayBack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TDWPayBack.xcdatamodel; sourceTree = "<group>"; };
+		CE3BA3601FD5221600D24C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3BA3631FD5221600D24C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3BA3651FD5221600D24C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3BA36A1FD5221600D24C3B /* TDWPayBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDWPayBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3BA36E1FD5221600D24C3B /* TDWPayBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDWPayBackTests.swift; sourceTree = "<group>"; };
+		CE3BA3701FD5221600D24C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3BA3751FD5221600D24C3B /* TDWPayBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDWPayBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3BA3791FD5221600D24C3B /* TDWPayBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDWPayBackUITests.swift; sourceTree = "<group>"; };
+		CE3BA37B1FD5221600D24C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3BA3A01FD5304B00D24C3B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3BA3A11FD5304B00D24C3B /* AppDelegateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateExtension.swift; sourceTree = "<group>"; };
+		CE3BA3A31FD5304B00D24C3B /* TDWTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWTabbarController.swift; sourceTree = "<group>"; };
+		CE3BA3AB1FD5313200D24C3B /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		CE5425851FD7CA0E008AA3B9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3BA3501FD5221600D24C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90E42D07AF9675A31FB9F83 /* Pods_TDWPayBack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BA3671FD5221600D24C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BA3721FD5221600D24C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6FEB674FFBEA2520AD5DED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A176B3A865EE04C0AFBB7964 /* Pods-TDWPayBack.debug.xcconfig */,
+				C7F710DB719C199BB98FEAE9 /* Pods-TDWPayBack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4DAD5D957A78D3919118581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D12C3A10AB099B072E6591C /* Pods_TDWPayBack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1274191FD638F000685B93 /* ServerMaintenance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServerMaintenance;
+			sourceTree = "<group>";
+		};
+		CE1274751FD6925B00685B93 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274761FD6925B00685B93 /* TDWBaseViewController.swift */,
+				CE1274771FD6925B00685B93 /* TDWNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CE1274781FD6925B00685B93 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274791FD6925B00685B93 /* TDWConstant.swift */,
+				CE12747A1FD6925B00685B93 /* TDWNotification.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		CE12747B1FD6925B00685B93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE12759C1FD6A3A600685B93 /* Refresh */,
+				CE1275931FD69C6300685B93 /* ImagePicker */,
+				CE1275861FD69BF900685B93 /* WebView */,
+				CE1275481FD696C500685B93 /* AlertView */,
+				CE12747C1FD6925B00685B93 /* EmotionMap */,
+				CE12747F1FD6925B00685B93 /* Hud */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE12747C1FD6925B00685B93 /* EmotionMap */ = {
+			isa = PBXGroup;
+			children = (
+				CE12747D1FD6925B00685B93 /* TDWEmotionMap.swift */,
+				CE12747E1FD6925B00685B93 /* TDWEmotionMapConfig.swift */,
+			);
+			path = EmotionMap;
+			sourceTree = "<group>";
+		};
+		CE12747F1FD6925B00685B93 /* Hud */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274801FD6925B00685B93 /* TDWHud.swift */,
+				CE1274811FD6925B00685B93 /* TDWLoadingView.swift */,
+			);
+			path = Hud;
+			sourceTree = "<group>";
+		};
+		CE1274821FD6925B00685B93 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274831FD6925B00685B93 /* TDWPayBack-Bridging-Header.h */,
+				CE1274841FD6925B00685B93 /* TDWPayBackTests-Bridging-Header.h */,
+				CE1274851FD6925B00685B93 /* TDWPayBackUITests-Bridging-Header.h */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		CE1274861FD6925B00685B93 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274881FD6925B00685B93 /* TDWUserManager.swift */,
+				CE1274871FD6925B00685B93 /* TDWUserDefaultsHelper.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CE1274891FD6925B00685B93 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275111FD6938A00685B93 /* API */,
+				CE12748A1FD6925B00685B93 /* Common */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE12748A1FD6925B00685B93 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE12748B1FD6925B00685B93 /* TDWMoyaConfig.swift */,
+				CE12748C1FD6925B00685B93 /* TDWMoyaProvider.swift */,
+				CE12748D1FD6925B00685B93 /* TDWResult.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE12748E1FD6925B00685B93 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CE12748F1FD6925B00685B93 /* Encryption */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		CE12748F1FD6925B00685B93 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274901FD6925B00685B93 /* ParameterPaser.swift */,
+				CE1274911FD6925B00685B93 /* RSA.h */,
+				CE1274921FD6925B00685B93 /* RSA.m */,
+				CE1274931FD6925B00685B93 /* TripleDES.h */,
+				CE1274941FD6925B00685B93 /* TripleDES.m */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		CE1274DD1FD6930900685B93 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274FD1FD6932800685B93 /* Entity */,
+				CE1274FB1FD6932800685B93 /* Interactor */,
+				CE1274FE1FD6932800685B93 /* Presenter */,
+				CE1275001FD6932900685B93 /* Protocols */,
+				CE1274F91FD6932800685B93 /* View */,
+				CE1274F71FD6932800685B93 /* WireFrame */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE1274DE1FD6930900685B93 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275341FD6941500685B93 /* Entity */,
+				CE1275301FD6941500685B93 /* Interactor */,
+				CE1275351FD6941600685B93 /* Presenter */,
+				CE1275321FD6941500685B93 /* Protocols */,
+				CE1275371FD6941600685B93 /* View */,
+				CE12752E1FD6941500685B93 /* WireFrame */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		CE1274F71FD6932800685B93 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274F81FD6932800685B93 /* LoginWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		CE1274F91FD6932800685B93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274FA1FD6932800685B93 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE1274FB1FD6932800685B93 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274FC1FD6932800685B93 /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CE1274FD1FD6932800685B93 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CE1274FE1FD6932800685B93 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274FF1FD6932800685B93 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE1275001FD6932900685B93 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275011FD6932900685B93 /* LoginProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CE1275111FD6938A00685B93 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275121FD693AA00685B93 /* TDWSettingAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CE12752E1FD6941500685B93 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				CE12752F1FD6941500685B93 /* RegisterWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		CE1275301FD6941500685B93 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275311FD6941500685B93 /* RegisterInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CE1275321FD6941500685B93 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275331FD6941500685B93 /* RegisterProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CE1275341FD6941500685B93 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CE1275351FD6941600685B93 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275361FD6941600685B93 /* RegisterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE1275371FD6941600685B93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275381FD6941600685B93 /* RegisterViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE1275481FD696C500685B93 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275491FD696C500685B93 /* TDWAlertChooseTitleView.swift */,
+				CE12754A1FD696C500685B93 /* TDWAlertChooseView.swift */,
+				CE12754B1FD696C500685B93 /* TDWAlertCloseView.swift */,
+				CE12754C1FD696C500685B93 /* TDWAlertTipTitleView.swift */,
+				CE12754D1FD696C500685B93 /* TDWAlertTipView.swift */,
+				CE12754E1FD696C500685B93 /* TDWAlertView.swift */,
+				CE12754F1FD696C500685B93 /* TDWAlertViewBridge.swift */,
+				CE1275501FD696C500685B93 /* TDWTwoButtonView.swift */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		CE1275691FD6975100685B93 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CE12756A1FD6975100685B93 /* TDWCacheHelper.swift */,
+				CE12756C1FD6975100685B93 /* TDWExtensions+String.swift */,
+				CE12756D1FD6975100685B93 /* TDWMoneyStringExtensions.swift */,
+				CE12756F1FD6975100685B93 /* TDWToolMoneyFormat.swift */,
+				CE1275821FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CE1275861FD69BF900685B93 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275871FD69BF900685B93 /* TDWWebActionInteraction.swift */,
+				CE1275881FD69BF900685B93 /* TDWWebController.swift */,
+				CE1275891FD69BF900685B93 /* TDWWebEventHandler.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		CE1275931FD69C6300685B93 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				CE1275941FD69C6300685B93 /* TDWImagePicker.swift */,
+				CE1275951FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		CE12759C1FD6A3A600685B93 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				CE12759D1FD6A3A600685B93 /* TDWBaseTableView.h */,
+				CE12759E1FD6A3A600685B93 /* TDWBaseTableView.m */,
+				CE12759F1FD6A3A600685B93 /* TDWCustomRefreshFooter.h */,
+				CE1275A01FD6A3A600685B93 /* TDWCustomRefreshFooter.m */,
+				CE1275A11FD6A3A600685B93 /* TDWCustomRefreshHeader.h */,
+				CE1275A21FD6A3A600685B93 /* TDWCustomRefreshHeader.m */,
+				CE1275A31FD6A3A600685B93 /* TDWPageTableView.h */,
+				CE1275A41FD6A3A600685B93 /* TDWPageTableView.m */,
+				CE1275A51FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.h */,
+				CE1275A61FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		CE3BA34A1FD5221600D24C3B = {
+			isa = PBXGroup;
+			children = (
+				CE3BA3551FD5221600D24C3B /* TDWPayBack */,
+				CE3BA36D1FD5221600D24C3B /* TDWPayBackTests */,
+				CE3BA3781FD5221600D24C3B /* TDWPayBackUITests */,
+				CE3BA3541FD5221600D24C3B /* Products */,
+				3A6FEB674FFBEA2520AD5DED /* Pods */,
+				C4DAD5D957A78D3919118581 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3BA3541FD5221600D24C3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BA3531FD5221600D24C3B /* TDWPayBack.app */,
+				CE3BA36A1FD5221600D24C3B /* TDWPayBackTests.xctest */,
+				CE3BA3751FD5221600D24C3B /* TDWPayBackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3BA3551FD5221600D24C3B /* TDWPayBack */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BA3881FD5257D00D24C3B /* PublicClass */,
+				CE3BA3871FD5257D00D24C3B /* Class */,
+				CE3BA3601FD5221600D24C3B /* Assets.xcassets */,
+				CE3BA3621FD5221600D24C3B /* LaunchScreen.storyboard */,
+				CE3BA3651FD5221600D24C3B /* Info.plist */,
+				CE3BA35D1FD5221600D24C3B /* TDWPayBack.xcdatamodeld */,
+			);
+			path = TDWPayBack;
+			sourceTree = "<group>";
+		};
+		CE3BA36D1FD5221600D24C3B /* TDWPayBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BA36E1FD5221600D24C3B /* TDWPayBackTests.swift */,
+				CE3BA3701FD5221600D24C3B /* Info.plist */,
+			);
+			path = TDWPayBackTests;
+			sourceTree = "<group>";
+		};
+		CE3BA3781FD5221600D24C3B /* TDWPayBackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BA3791FD5221600D24C3B /* TDWPayBackUITests.swift */,
+				CE3BA37B1FD5221600D24C3B /* Info.plist */,
+			);
+			path = TDWPayBackUITests;
+			sourceTree = "<group>";
+		};
+		CE3BA3871FD5257D00D24C3B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274DD1FD6930900685B93 /* Login */,
+				CE1274DE1FD6930900685B93 /* Register */,
+				CE3BA3A71FD530D600D24C3B /* HomePage */,
+				CE3BA3A81FD530D600D24C3B /* Personal */,
+				CE3BA3921FD525FC00D24C3B /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CE3BA3881FD5257D00D24C3B /* PublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				CE1274751FD6925B00685B93 /* Base */,
+				CE1274821FD6925B00685B93 /* Bridge */,
+				CE12747B1FD6925B00685B93 /* Components */,
+				CE1274781FD6925B00685B93 /* Constant */,
+				CE1274891FD6925B00685B93 /* Network */,
+				CE12748E1FD6925B00685B93 /* Security */,
+				CE1274861FD6925B00685B93 /* Shared */,
+				CE1275691FD6975100685B93 /* Helper */,
+			);
+			path = PublicClass;
+			sourceTree = "<group>";
+		};
+		CE3BA3921FD525FC00D24C3B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BA39F1FD5304B00D24C3B /* AppDelegate */,
+				CE3BA3A21FD5304B00D24C3B /* TbabarController */,
+				CE1274191FD638F000685B93 /* ServerMaintenance */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CE3BA39F1FD5304B00D24C3B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BA3A01FD5304B00D24C3B /* AppDelegate.swift */,
+				CE3BA3A11FD5304B00D24C3B /* AppDelegateExtension.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CE3BA3A21FD5304B00D24C3B /* TbabarController */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BA3A31FD5304B00D24C3B /* TDWTabbarController.swift */,
+			);
+			path = TbabarController;
+			sourceTree = "<group>";
+		};
+		CE3BA3A71FD530D600D24C3B /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CE5425851FD7CA0E008AA3B9 /* HomePageViewController.swift */,
+			);
+			name = HomePage;
+			path = TDWPayBack/Class/HomePage;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE3BA3A81FD530D600D24C3B /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BA3AB1FD5313200D24C3B /* PersonalViewController.swift */,
+			);
+			name = Personal;
+			path = TDWPayBack/Class/Personal;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3BA3521FD5221600D24C3B /* TDWPayBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3BA37E1FD5221600D24C3B /* Build configuration list for PBXNativeTarget "TDWPayBack" */;
+			buildPhases = (
+				CC4A761326AEB8E4A9C0F55F /* [CP] Check Pods Manifest.lock */,
+				CE3BA34F1FD5221600D24C3B /* Sources */,
+				CE3BA3501FD5221600D24C3B /* Frameworks */,
+				CE3BA3511FD5221600D24C3B /* Resources */,
+				2583DDECB3A99DBB61A15854 /* [CP] Embed Pods Frameworks */,
+				03AF6F8A1287E4B1ECC15B5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDWPayBack;
+			productName = TDWPayBack;
+			productReference = CE3BA3531FD5221600D24C3B /* TDWPayBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE3BA3691FD5221600D24C3B /* TDWPayBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3BA3811FD5221600D24C3B /* Build configuration list for PBXNativeTarget "TDWPayBackTests" */;
+			buildPhases = (
+				CE3BA3661FD5221600D24C3B /* Sources */,
+				CE3BA3671FD5221600D24C3B /* Frameworks */,
+				CE3BA3681FD5221600D24C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3BA36C1FD5221600D24C3B /* PBXTargetDependency */,
+			);
+			name = TDWPayBackTests;
+			productName = TDWPayBackTests;
+			productReference = CE3BA36A1FD5221600D24C3B /* TDWPayBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE3BA3741FD5221600D24C3B /* TDWPayBackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3BA3841FD5221600D24C3B /* Build configuration list for PBXNativeTarget "TDWPayBackUITests" */;
+			buildPhases = (
+				CE3BA3711FD5221600D24C3B /* Sources */,
+				CE3BA3721FD5221600D24C3B /* Frameworks */,
+				CE3BA3731FD5221600D24C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3BA3771FD5221600D24C3B /* PBXTargetDependency */,
+			);
+			name = TDWPayBackUITests;
+			productName = TDWPayBackUITests;
+			productReference = CE3BA3751FD5221600D24C3B /* TDWPayBackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3BA34B1FD5221600D24C3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = tuandai;
+				TargetAttributes = {
+					CE3BA3521FD5221600D24C3B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+					CE3BA3691FD5221600D24C3B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE3BA3521FD5221600D24C3B;
+					};
+					CE3BA3741FD5221600D24C3B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE3BA3521FD5221600D24C3B;
+					};
+				};
+			};
+			buildConfigurationList = CE3BA34E1FD5221600D24C3B /* Build configuration list for PBXProject "TDWPayBack" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3BA34A1FD5221600D24C3B;
+			productRefGroup = CE3BA3541FD5221600D24C3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3BA3521FD5221600D24C3B /* TDWPayBack */,
+				CE3BA3691FD5221600D24C3B /* TDWPayBackTests */,
+				CE3BA3741FD5221600D24C3B /* TDWPayBackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3BA3511FD5221600D24C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3BA3641FD5221600D24C3B /* LaunchScreen.storyboard in Resources */,
+				CE3BA3611FD5221600D24C3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BA3681FD5221600D24C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BA3731FD5221600D24C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AF6F8A1287E4B1ECC15B5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDWPayBack/Pods-TDWPayBack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2583DDECB3A99DBB61A15854 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TDWPayBack/Pods-TDWPayBack-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SensorsAnalyticsSDK/SensorsAnalyticsSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TDWAlertView/TDWAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/TDWKit/TDWKit.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SensorsAnalyticsSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TDWAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TDWKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDWPayBack/Pods-TDWPayBack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4A761326AEB8E4A9C0F55F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDWPayBack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3BA34F1FD5221600D24C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE12750E1FD6932900685B93 /* LoginProtocols.swift in Sources */,
+				CE12755D1FD696C500685B93 /* TDWAlertTipView.swift in Sources */,
+				CE1275511FD696C500685B93 /* TDWAlertChooseTitleView.swift in Sources */,
+				CE12753F1FD6941600685B93 /* RegisterProtocols.swift in Sources */,
+				CE1274C21FD6925C00685B93 /* TripleDES.m in Sources */,
+				CE1275AD1FD6A3A600685B93 /* TDWCustomRefreshHeader.m in Sources */,
+				CE1274BF1FD6925C00685B93 /* RSA.m in Sources */,
+				CE1274B31FD6925C00685B93 /* TDWMoyaConfig.swift in Sources */,
+				CE1275571FD696C500685B93 /* TDWAlertCloseView.swift in Sources */,
+				CE1275791FD6975100685B93 /* TDWMoneyStringExtensions.swift in Sources */,
+				CE1275081FD6932900685B93 /* LoginInteractor.swift in Sources */,
+				CE12757F1FD6975100685B93 /* TDWToolMoneyFormat.swift in Sources */,
+				CE1275391FD6941600685B93 /* RegisterWireFrame.swift in Sources */,
+				CE1275131FD693AA00685B93 /* TDWSettingAPI.swift in Sources */,
+				CE3BA3A41FD5304B00D24C3B /* AppDelegate.swift in Sources */,
+				CE1274B61FD6925C00685B93 /* TDWMoyaProvider.swift in Sources */,
+				CE1274951FD6925C00685B93 /* TDWBaseViewController.swift in Sources */,
+				CE1274A41FD6925C00685B93 /* TDWEmotionMapConfig.swift in Sources */,
+				CE1275601FD696C500685B93 /* TDWAlertView.swift in Sources */,
+				CE12758D1FD69BF900685B93 /* TDWWebController.swift in Sources */,
+				CE1275B31FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m in Sources */,
+				CE1275451FD6941600685B93 /* RegisterViewController.swift in Sources */,
+				CE12750B1FD6932900685B93 /* LoginPresenter.swift in Sources */,
+				CE1275A71FD6A3A600685B93 /* TDWBaseTableView.m in Sources */,
+				CE12749B1FD6925C00685B93 /* TDWConstant.swift in Sources */,
+				CE1275421FD6941600685B93 /* RegisterPresenter.swift in Sources */,
+				CE1274A11FD6925C00685B93 /* TDWEmotionMap.swift in Sources */,
+				CE12758A1FD69BF900685B93 /* TDWWebActionInteraction.swift in Sources */,
+				CE1275661FD696C500685B93 /* TDWTwoButtonView.swift in Sources */,
+				CE1274981FD6925C00685B93 /* TDWNavigationController.swift in Sources */,
+				CE3BA3AC1FD5313200D24C3B /* PersonalViewController.swift in Sources */,
+				CE1275051FD6932900685B93 /* LoginViewController.swift in Sources */,
+				CE12755A1FD696C500685B93 /* TDWAlertTipTitleView.swift in Sources */,
+				CE1274B91FD6925C00685B93 /* TDWResult.swift in Sources */,
+				CE1275701FD6975100685B93 /* TDWCacheHelper.swift in Sources */,
+				CE1275831FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift in Sources */,
+				CE5425861FD7CA0E008AA3B9 /* HomePageViewController.swift in Sources */,
+				CE1274BC1FD6925C00685B93 /* ParameterPaser.swift in Sources */,
+				CE1275021FD6932900685B93 /* LoginWireFrame.swift in Sources */,
+				CE12753C1FD6941600685B93 /* RegisterInteractor.swift in Sources */,
+				CE1274B01FD6925C00685B93 /* TDWUserManager.swift in Sources */,
+				CE12749E1FD6925C00685B93 /* TDWNotification.swift in Sources */,
+				CE1274A71FD6925C00685B93 /* TDWHud.swift in Sources */,
+				CE3BA3A61FD5304B00D24C3B /* TDWTabbarController.swift in Sources */,
+				CE1275631FD696C500685B93 /* TDWAlertViewBridge.swift in Sources */,
+				CE1274AA1FD6925C00685B93 /* TDWLoadingView.swift in Sources */,
+				CE1274AD1FD6925C00685B93 /* TDWUserDefaultsHelper.swift in Sources */,
+				CE3BA35F1FD5221600D24C3B /* TDWPayBack.xcdatamodeld in Sources */,
+				CE1275B01FD6A3A600685B93 /* TDWPageTableView.m in Sources */,
+				CE1275541FD696C500685B93 /* TDWAlertChooseView.swift in Sources */,
+				CE1275761FD6975100685B93 /* TDWExtensions+String.swift in Sources */,
+				CE1275AA1FD6A3A600685B93 /* TDWCustomRefreshFooter.m in Sources */,
+				CE1275961FD69C6300685B93 /* TDWImagePicker.swift in Sources */,
+				CE3BA3A51FD5304B00D24C3B /* AppDelegateExtension.swift in Sources */,
+				CE1275991FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift in Sources */,
+				CE1275901FD69BF900685B93 /* TDWWebEventHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BA3661FD5221600D24C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1275841FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift in Sources */,
+				CE1274991FD6925C00685B93 /* TDWNavigationController.swift in Sources */,
+				CE1275971FD69C6300685B93 /* TDWImagePicker.swift in Sources */,
+				CE1275611FD696C500685B93 /* TDWAlertView.swift in Sources */,
+				CE1274A51FD6925C00685B93 /* TDWEmotionMapConfig.swift in Sources */,
+				CE1274AE1FD6925C00685B93 /* TDWUserDefaultsHelper.swift in Sources */,
+				CE12749F1FD6925C00685B93 /* TDWNotification.swift in Sources */,
+				CE1275431FD6941600685B93 /* RegisterPresenter.swift in Sources */,
+				CE1275061FD6932900685B93 /* LoginViewController.swift in Sources */,
+				CE1275801FD6975100685B93 /* TDWToolMoneyFormat.swift in Sources */,
+				CE12755B1FD696C500685B93 /* TDWAlertTipTitleView.swift in Sources */,
+				CE1275031FD6932900685B93 /* LoginWireFrame.swift in Sources */,
+				CE1275141FD693AA00685B93 /* TDWSettingAPI.swift in Sources */,
+				CE1275911FD69BF900685B93 /* TDWWebEventHandler.swift in Sources */,
+				CE1274BA1FD6925C00685B93 /* TDWResult.swift in Sources */,
+				CE12749C1FD6925C00685B93 /* TDWConstant.swift in Sources */,
+				CE12753A1FD6941600685B93 /* RegisterWireFrame.swift in Sources */,
+				CE1275091FD6932900685B93 /* LoginInteractor.swift in Sources */,
+				CE12759A1FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift in Sources */,
+				CE12750C1FD6932900685B93 /* LoginPresenter.swift in Sources */,
+				CE1275A81FD6A3A600685B93 /* TDWBaseTableView.m in Sources */,
+				CE1274C01FD6925C00685B93 /* RSA.m in Sources */,
+				CE1275AE1FD6A3A600685B93 /* TDWCustomRefreshHeader.m in Sources */,
+				CE1275581FD696C500685B93 /* TDWAlertCloseView.swift in Sources */,
+				CE12758B1FD69BF900685B93 /* TDWWebActionInteraction.swift in Sources */,
+				CE1275771FD6975100685B93 /* TDWExtensions+String.swift in Sources */,
+				CE1275671FD696C500685B93 /* TDWTwoButtonView.swift in Sources */,
+				CE1274BD1FD6925C00685B93 /* ParameterPaser.swift in Sources */,
+				CE1275AB1FD6A3A600685B93 /* TDWCustomRefreshFooter.m in Sources */,
+				CE1274B41FD6925C00685B93 /* TDWMoyaConfig.swift in Sources */,
+				CE1275711FD6975100685B93 /* TDWCacheHelper.swift in Sources */,
+				CE3BA36F1FD5221600D24C3B /* TDWPayBackTests.swift in Sources */,
+				CE1275B11FD6A3A600685B93 /* TDWPageTableView.m in Sources */,
+				CE1274A21FD6925C00685B93 /* TDWEmotionMap.swift in Sources */,
+				CE12758E1FD69BF900685B93 /* TDWWebController.swift in Sources */,
+				CE12755E1FD696C500685B93 /* TDWAlertTipView.swift in Sources */,
+				CE1274961FD6925C00685B93 /* TDWBaseViewController.swift in Sources */,
+				CE1274AB1FD6925C00685B93 /* TDWLoadingView.swift in Sources */,
+				CE1274C31FD6925C00685B93 /* TripleDES.m in Sources */,
+				CE1275B41FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m in Sources */,
+				CE1274B11FD6925C00685B93 /* TDWUserManager.swift in Sources */,
+				CE12753D1FD6941600685B93 /* RegisterInteractor.swift in Sources */,
+				CE1275461FD6941600685B93 /* RegisterViewController.swift in Sources */,
+				CE1274A81FD6925C00685B93 /* TDWHud.swift in Sources */,
+				CE1275641FD696C500685B93 /* TDWAlertViewBridge.swift in Sources */,
+				CE1275521FD696C500685B93 /* TDWAlertChooseTitleView.swift in Sources */,
+				CE1274B71FD6925C00685B93 /* TDWMoyaProvider.swift in Sources */,
+				CE1275401FD6941600685B93 /* RegisterProtocols.swift in Sources */,
+				CE1275551FD696C500685B93 /* TDWAlertChooseView.swift in Sources */,
+				CE12750F1FD6932900685B93 /* LoginProtocols.swift in Sources */,
+				CE12757A1FD6975100685B93 /* TDWMoneyStringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BA3711FD5221600D24C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1275851FD69B1F00685B93 /* TDWExtensions+NSAttributedString.swift in Sources */,
+				CE12749A1FD6925C00685B93 /* TDWNavigationController.swift in Sources */,
+				CE1275981FD69C6300685B93 /* TDWImagePicker.swift in Sources */,
+				CE1275621FD696C500685B93 /* TDWAlertView.swift in Sources */,
+				CE1274A61FD6925C00685B93 /* TDWEmotionMapConfig.swift in Sources */,
+				CE1274AF1FD6925C00685B93 /* TDWUserDefaultsHelper.swift in Sources */,
+				CE1274A01FD6925C00685B93 /* TDWNotification.swift in Sources */,
+				CE1275441FD6941600685B93 /* RegisterPresenter.swift in Sources */,
+				CE1275071FD6932900685B93 /* LoginViewController.swift in Sources */,
+				CE1275811FD6975100685B93 /* TDWToolMoneyFormat.swift in Sources */,
+				CE12755C1FD696C500685B93 /* TDWAlertTipTitleView.swift in Sources */,
+				CE1275041FD6932900685B93 /* LoginWireFrame.swift in Sources */,
+				CE1275151FD693AA00685B93 /* TDWSettingAPI.swift in Sources */,
+				CE1275921FD69BF900685B93 /* TDWWebEventHandler.swift in Sources */,
+				CE1274BB1FD6925C00685B93 /* TDWResult.swift in Sources */,
+				CE12749D1FD6925C00685B93 /* TDWConstant.swift in Sources */,
+				CE12753B1FD6941600685B93 /* RegisterWireFrame.swift in Sources */,
+				CE12750A1FD6932900685B93 /* LoginInteractor.swift in Sources */,
+				CE12759B1FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift in Sources */,
+				CE12750D1FD6932900685B93 /* LoginPresenter.swift in Sources */,
+				CE1275A91FD6A3A600685B93 /* TDWBaseTableView.m in Sources */,
+				CE1274C11FD6925C00685B93 /* RSA.m in Sources */,
+				CE1275AF1FD6A3A600685B93 /* TDWCustomRefreshHeader.m in Sources */,
+				CE1275591FD696C500685B93 /* TDWAlertCloseView.swift in Sources */,
+				CE12758C1FD69BF900685B93 /* TDWWebActionInteraction.swift in Sources */,
+				CE1275781FD6975100685B93 /* TDWExtensions+String.swift in Sources */,
+				CE1275681FD696C500685B93 /* TDWTwoButtonView.swift in Sources */,
+				CE1274BE1FD6925C00685B93 /* ParameterPaser.swift in Sources */,
+				CE1275AC1FD6A3A600685B93 /* TDWCustomRefreshFooter.m in Sources */,
+				CE1274B51FD6925C00685B93 /* TDWMoyaConfig.swift in Sources */,
+				CE1275721FD6975100685B93 /* TDWCacheHelper.swift in Sources */,
+				CE3BA37A1FD5221600D24C3B /* TDWPayBackUITests.swift in Sources */,
+				CE1275B21FD6A3A600685B93 /* TDWPageTableView.m in Sources */,
+				CE1274A31FD6925C00685B93 /* TDWEmotionMap.swift in Sources */,
+				CE12758F1FD69BF900685B93 /* TDWWebController.swift in Sources */,
+				CE12755F1FD696C500685B93 /* TDWAlertTipView.swift in Sources */,
+				CE1274971FD6925C00685B93 /* TDWBaseViewController.swift in Sources */,
+				CE1274AC1FD6925C00685B93 /* TDWLoadingView.swift in Sources */,
+				CE1274C41FD6925C00685B93 /* TripleDES.m in Sources */,
+				CE1275B51FD6A3A600685B93 /* UIScrollView+TDWHeaderRefresh.m in Sources */,
+				CE1274B21FD6925C00685B93 /* TDWUserManager.swift in Sources */,
+				CE12753E1FD6941600685B93 /* RegisterInteractor.swift in Sources */,
+				CE1275471FD6941600685B93 /* RegisterViewController.swift in Sources */,
+				CE1274A91FD6925C00685B93 /* TDWHud.swift in Sources */,
+				CE1275651FD696C500685B93 /* TDWAlertViewBridge.swift in Sources */,
+				CE1275531FD696C500685B93 /* TDWAlertChooseTitleView.swift in Sources */,
+				CE1274B81FD6925C00685B93 /* TDWMoyaProvider.swift in Sources */,
+				CE1275411FD6941600685B93 /* RegisterProtocols.swift in Sources */,
+				CE1275561FD696C500685B93 /* TDWAlertChooseView.swift in Sources */,
+				CE1275101FD6932900685B93 /* LoginProtocols.swift in Sources */,
+				CE12757B1FD6975100685B93 /* TDWMoneyStringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE3BA36C1FD5221600D24C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3BA3521FD5221600D24C3B /* TDWPayBack */;
+			targetProxy = CE3BA36B1FD5221600D24C3B /* PBXContainerItemProxy */;
+		};
+		CE3BA3771FD5221600D24C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3BA3521FD5221600D24C3B /* TDWPayBack */;
+			targetProxy = CE3BA3761FD5221600D24C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE3BA3621FD5221600D24C3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3BA3631FD5221600D24C3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3BA37C1FD5221600D24C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
+			};
+			name = Debug;
+		};
+		CE3BA37D1FD5221600D24C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3BA37F1FD5221600D24C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A176B3A865EE04C0AFBB7964 /* Pods-TDWPayBack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TDWPayBack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuandai.TDWPayBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/TDWPayBack/PublicClass/Bridge/TDWPayBack-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		CE3BA3801FD5221600D24C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F710DB719C199BB98FEAE9 /* Pods-TDWPayBack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TDWPayBack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuandai.TDWPayBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/TDWPayBack/PublicClass/Bridge/TDWPayBack-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		CE3BA3821FD5221600D24C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDWPayBackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuandai.TDWPayBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/TDWPayBack/PublicClass/Bridge/TDWPayBackTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDWPayBack.app/TDWPayBack";
+			};
+			name = Debug;
+		};
+		CE3BA3831FD5221600D24C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDWPayBackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuandai.TDWPayBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/TDWPayBack/PublicClass/Bridge/TDWPayBackTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDWPayBack.app/TDWPayBack";
+			};
+			name = Release;
+		};
+		CE3BA3851FD5221600D24C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDWPayBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuandai.TDWPayBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/TDWPayBack/PublicClass/Bridge/TDWPayBackUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDWPayBack;
+			};
+			name = Debug;
+		};
+		CE3BA3861FD5221600D24C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDWPayBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuandai.TDWPayBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/TDWPayBack/PublicClass/Bridge/TDWPayBackUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDWPayBack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3BA34E1FD5221600D24C3B /* Build configuration list for PBXProject "TDWPayBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3BA37C1FD5221600D24C3B /* Debug */,
+				CE3BA37D1FD5221600D24C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3BA37E1FD5221600D24C3B /* Build configuration list for PBXNativeTarget "TDWPayBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3BA37F1FD5221600D24C3B /* Debug */,
+				CE3BA3801FD5221600D24C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3BA3811FD5221600D24C3B /* Build configuration list for PBXNativeTarget "TDWPayBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3BA3821FD5221600D24C3B /* Debug */,
+				CE3BA3831FD5221600D24C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3BA3841FD5221600D24C3B /* Build configuration list for PBXNativeTarget "TDWPayBackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3BA3851FD5221600D24C3B /* Debug */,
+				CE3BA3861FD5221600D24C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE3BA35D1FD5221600D24C3B /* TDWPayBack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE3BA35E1FD5221600D24C3B /* TDWPayBack.xcdatamodel */,
+			);
+			currentVersion = CE3BA35E1FD5221600D24C3B /* TDWPayBack.xcdatamodel */;
+			path = TDWPayBack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE3BA34B1FD5221600D24C3B /* Project object */;
+}
