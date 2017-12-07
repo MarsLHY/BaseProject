@@ -167,6 +167,8 @@
 		CE3BA3A51FD5304B00D24C3B /* AppDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA3A11FD5304B00D24C3B /* AppDelegateExtension.swift */; };
 		CE3BA3A61FD5304B00D24C3B /* TDWTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA3A31FD5304B00D24C3B /* TDWTabbarController.swift */; };
 		CE3BA3AC1FD5313200D24C3B /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA3AB1FD5313200D24C3B /* PersonalViewController.swift */; };
+		CE487A3D1FD8D6B9007D9AAC /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE487A3C1FD8D6B9007D9AAC /* testViewController.swift */; };
+		CE487A3F1FD8D6D7007D9AAC /* testcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE487A3E1FD8D6D7007D9AAC /* testcViewController.swift */; };
 		CE5425861FD7CA0E008AA3B9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5425851FD7CA0E008AA3B9 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -266,6 +268,8 @@
 		CE3BA3A11FD5304B00D24C3B /* AppDelegateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateExtension.swift; sourceTree = "<group>"; };
 		CE3BA3A31FD5304B00D24C3B /* TDWTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDWTabbarController.swift; sourceTree = "<group>"; };
 		CE3BA3AB1FD5313200D24C3B /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		CE487A3C1FD8D6B9007D9AAC /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		CE487A3E1FD8D6D7007D9AAC /* testcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testcViewController.swift; sourceTree = "<group>"; };
 		CE5425851FD7CA0E008AA3B9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -737,6 +741,8 @@
 			isa = PBXGroup;
 			children = (
 				CE3BA3AB1FD5313200D24C3B /* PersonalViewController.swift */,
+				CE487A3C1FD8D6B9007D9AAC /* testViewController.swift */,
+				CE487A3E1FD8D6D7007D9AAC /* testcViewController.swift */,
 			);
 			name = Personal;
 			path = TDWPayBack/Class/Personal;
@@ -1009,6 +1015,7 @@
 				CE1274A71FD6925C00685B93 /* TDWHud.swift in Sources */,
 				CE3BA3A61FD5304B00D24C3B /* TDWTabbarController.swift in Sources */,
 				CE1275631FD696C500685B93 /* TDWAlertViewBridge.swift in Sources */,
+				CE487A3D1FD8D6B9007D9AAC /* testViewController.swift in Sources */,
 				CE1274AA1FD6925C00685B93 /* TDWLoadingView.swift in Sources */,
 				CE1274AD1FD6925C00685B93 /* TDWUserDefaultsHelper.swift in Sources */,
 				CE3BA35F1FD5221600D24C3B /* TDWPayBack.xcdatamodeld in Sources */,
@@ -1017,6 +1024,7 @@
 				CE1275761FD6975100685B93 /* TDWExtensions+String.swift in Sources */,
 				CE1275AA1FD6A3A600685B93 /* TDWCustomRefreshFooter.m in Sources */,
 				CE1275961FD69C6300685B93 /* TDWImagePicker.swift in Sources */,
+				CE487A3F1FD8D6D7007D9AAC /* testcViewController.swift in Sources */,
 				CE3BA3A51FD5304B00D24C3B /* AppDelegateExtension.swift in Sources */,
 				CE1275991FD69C6300685B93 /* TDWPhotoAlbumGuideViewController.swift in Sources */,
 				CE1275901FD69BF900685B93 /* TDWWebEventHandler.swift in Sources */,

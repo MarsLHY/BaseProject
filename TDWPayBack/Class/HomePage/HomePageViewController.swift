@@ -11,9 +11,22 @@ import FDFullscreenPopGesture
 
 class HomePageViewController: TDWBaseViewController {
     
-    var pageController: UIPageViewController!
+    //transitionStyle:转换样式，有PageCurl和Scroll两种
+    //navigationOrientation:导航方向，有Horizontal和Vertical两种
+    //options: UIPageViewControllerOptionSpineLocationKey---书脊的位置
+    //UIPageViewControllerOptionInterPageSpacingKey---每页的间距
+    lazy var pageController: UIPageViewController = {
+        return  UIPageViewController(transitionStyle: .scroll,
+                                     navigationOrientation:.horizontal,
+                                     options: [UIPageViewControllerOptionInterPageSpacingKey: NSNumber(value:0)])
+    }()
+    lazy var viewControllers:[UIViewController] = {
+        return [testViewController(),
+                PersonalViewController(),
+                testcViewController()]
+    }()
+    
     var currentPage: Int = 0
-    var viewControllers = NSMutableArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,27 +42,19 @@ class HomePageViewController: TDWBaseViewController {
             make.left.equalToSuperview().offset(100)
             make.height.width.equalTo(50)
         }
-        //初始化
-        //transitionStyle:转换样式，有PageCurl和Scroll两种
-        //navigationOrientation:导航方向，有Horizontal和Vertical两种
-        //options: UIPageViewControllerOptionSpineLocationKey---书脊的位置
-        //UIPageViewControllerOptionInterPageSpacingKey---每页的间距
-        pageController = UIPageViewController(transitionStyle: .pageCurl, navigationOrientation: .horizontal, options: [UIPageViewControllerOptionSpineLocationKey: NSNumber(value: 10)])
-        
-        //初始化要展示的VC
-        for _ in 0...9 {
-            let vc = PersonalViewController.init()
-            viewControllers.add(vc)
-        }
+       
+        //代理
+        pageController.dataSource = self
+        pageController.delegate = self
         //展示之前进行初始化第一个controller，单个显示放一个，两个显示则放两个，和样式有关
-        if let abVC = viewControllers[0] as? [UIViewController] {
-            pageController.setViewControllers(abVC, direction: .forward, animated: true, completion: nil)
-        }
+        pageController.setViewControllers([viewControllers[0]], direction: .forward, animated: false, completion: nil)
         
         //UIpageController必须放在Controlller container中
         self.addChildViewController(pageController)
         self.view.addSubview(pageController.view)
-        currentPage = 0
+        pageController.view.snp.makeConstraints { (make) in
+            make.top.left.right.bottom.equalToSuperview()
+        }
     }
     
     func testAction() {
@@ -63,21 +68,32 @@ extension HomePageViewController: UIPageViewControllerDataSource,UIPageViewContr
     
     //-------------DataSource-----------------
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        currentPage = currentPage - 1
-        if currentPage < 0 {
-            currentPage = 0
+        var index = viewControllers.index(of: viewController)
+        guard index != nil else {
             return nil
         }
-        return viewControllers[currentPage] as? UIViewController
+        
+        if index! > 0 {
+            index! -= 1
+        } else {
+            return nil
+        }
+        return viewControllers[index!]
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        currentPage = currentPage + 1
-        if currentPage > 9 {
-            currentPage = 9
+        
+        var index = viewControllers.index(of: viewController)
+        guard index != nil else {
             return nil
         }
-        return viewControllers[currentPage] as? UIViewController
+        
+        if index! < self.viewControllers.count - 1 {
+            index! += 1
+        } else {
+            return nil
+        }
+        return viewControllers[index!]
     }
     
     func presentationCount(for pageViewController: UIPageViewController) -> Int {
@@ -88,24 +104,17 @@ extension HomePageViewController: UIPageViewControllerDataSource,UIPageViewContr
         return currentPage
     }
     
+    
     //------------Delegate--------------
-    //    func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [AnyObject]) {
-    //
-    //    }
-    //
-    //    private func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
-    //
-    //    }
-    //
-    //    internal func pageViewController(_ pageViewController: UIPageViewController, spineLocationFor orientation: UIInterfaceOrientation) -> UIPageViewControllerSpineLocation {
-    //        return .min
-    //    }
-    //
-    //    private func pageViewControllerSupportedInterfaceOrientations(pageViewController: UIPageViewController) -> Int {
-    //        return 2
-    //    }
-    //
-    //    func pageViewControllerPreferredInterfaceOrientationForPresentation(_ pageViewController: UIPageViewController) -> UIInterfaceOrientation {
-    //        return .portrait
-    //    }
+    //页面切换完毕
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        guard completed, pageViewController.viewControllers != nil else {
+            return
+        }
+        
+        if pageViewController.viewControllers!.count > 0 {
+            currentPage = viewControllers.index(of: pageViewController.viewControllers![0])!
+        }
+    }
+    
 }
